@@ -19,8 +19,7 @@ class Dog: public Animal {
 * Inheritance is an is-a relationship. We use inheritance only if an is-a relationship is present between the two classes.
 
 Example -
-```
-// base class
+``` // base class
 class Animal {
 
 	public void eat() {
@@ -56,8 +55,7 @@ void main(String[] args) {
 Output - 
 I can eat!
 I can sleep!
-I can bark! Woof woof!!
-```
+I can bark! Woof woof!! ```
 
 2) A call to the setTimeout() global method can block the event loop in NodeJS. Is this true or false? Why?
 * That is not true. When you call setTimeout and return out of your code the server is not blocked. It is free to process other events (possibly other setTimeout callbacks) while waiting for your particular timer to fire.
